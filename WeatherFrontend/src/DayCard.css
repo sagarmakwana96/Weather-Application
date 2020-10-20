@@ -1,0 +1,29 @@
+.weatherCard{
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    background-color: rgba(255,255,255,0.4);
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 7px;
+    align-items: center;
+    width: 150px;
+}
+
+.button {
+    display : block;
+    width: 200px;
+}
+.button > input{
+    visibility: hidden;
+    position: absolute;
+}
+.button > input + div{
+    cursor:pointer;
+    border:2px solid transparent;
+}
+.button > input:checked + div > .weatherCard{
+    box-shadow: 1px 2px 8px #383836;
+    border: 0.8px solid black;
+}

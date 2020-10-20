@@ -1,0 +1,62 @@
+.mainContainer{
+    color: white;
+    padding: 40px 0;
+    display: block;
+    background-image: url(background-img2.jpg);
+}
+.outerContainer{
+    display: flex;
+    flex-direction: row;
+}
+.container1{
+    width: 35%;
+    /* text-align: center; */
+    background-color: rgba(255,255,255,0.4);
+    margin-left: 10%;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    padding: 10px;
+}
+.container2{
+    display: inline-block;
+    width: 43%;
+    /* text-align: center; */
+    background-color: rgba(255,255,255,0.4);
+    margin-left: 2%;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    padding: 10px;
+}
+.weatherBlock{
+    display: flex;
+    flex-direction: row;
+}
+
+.weather{
+    width: 50%;
+    text-align: center;
+}
+
+.location{
+    text-align: center;
+}
+
+.reportTable{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.chartStyle{
+    width: 80%;
+    margin-bottom: 10px;
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 8px;
+}
+
+.temparature{
+    width: 50%;
+    font-size: 35px;
+    padding: 10px;
+}
